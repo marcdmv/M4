@@ -43,7 +43,7 @@ public class Main {
             Scanner seguirDemanantObj = new Scanner(System.in);
             System.out.println("¿Quiere seguir pidiendo? ([si]/no)");
             String platsDemanatsString = seguirDemanantObj.nextLine();
-            if (platsDemanatsString.equals("no")) {
+            if (platsDemanatsString.equalsIgnoreCase("no")) {
                 seguirDemanant = 0;
             }
         }
